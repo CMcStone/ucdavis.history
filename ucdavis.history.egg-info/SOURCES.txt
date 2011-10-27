@@ -1,0 +1,13 @@
+setup.cfg
+setup.py
+ucdavis/__init__.py
+ucdavis.history.egg-info/PKG-INFO
+ucdavis.history.egg-info/SOURCES.txt
+ucdavis.history.egg-info/dependency_links.txt
+ucdavis.history.egg-info/entry_points.txt
+ucdavis.history.egg-info/namespace_packages.txt
+ucdavis.history.egg-info/not-zip-safe
+ucdavis.history.egg-info/requires.txt
+ucdavis.history.egg-info/top_level.txt
+ucdavis/history/__init__.py
+ucdavis/history/tests.py

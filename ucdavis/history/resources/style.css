@@ -1,0 +1,1613 @@
+/*  
+Theme Name: History
+Theme URI: http://history.ucdavis.edu
+Description: borrowed from a free wordpress theme, orei
+Author: SkinPress.com
+Author URI: http://www.skinpress.com/
+
+
+*/
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{
+	margin:0;
+	padding:0;
+}
+h1, h2, h3, h4 { font-family:"Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif; }
+h1 { text-transform:uppercase; }
+h2 { font-variant:small-caps; font-style:italic;letter-spacing: .08em; font-size: 2em; }
+h3, h4 { font-style:italic; }
+
+ul{
+	list-style:none;
+}
+a{
+	color:#000;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+a img{
+	border:0;
+}
+.clear{
+	clear:both;
+}
+body{
+	margin:0;
+	padding:0;
+	font-family: Georgia, "Lucida Sans Unicode","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+	font-size:13px;
+	background: #fff url(images/bgr_main.jpg) repeat-x;
+	color:#000;
+}
+#page{
+	width:958px;
+	margin:0 auto;
+	padding: 0 0 40px 0;
+}
+#wrapper{
+    
+}
+
+/* HEADER */
+
+#header-wrapper {
+}
+
+#header{
+	width:900%;
+	height:50px;
+	margin: 0 auto;
+	overflow:hidden;
+	backgound; url(images/bgr_body2.jpg) no-repeat left top;
+}
+    /** LOGO */
+
+#logo {
+	width: 850px;
+	height: 300px;
+	margin: 0 auto;
+	padding-left: 50px;
+	background: url(images/historylogo.jpg) no-repeat left top;
+}
+
+#logo h1, #logo p {
+	margin: 0px;
+	line-height: normal;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+#logo p {
+	padding-left: 3px;
+	padding-top: 6px;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+#logo h1 {
+	padding: 155px 0px 0px 0px;
+	font-size: 34px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/* MENU */
+#menu{
+	width:100%;
+	height:56px;
+	background:url(images/bgr_menu.jpg) no-repeat;
+}
+#mainmenu{
+	float:left;
+	padding:12px 0 0 10px;
+	width:600px;
+}
+#mainmenu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	z-index:1000;
+}
+/*Top level list items*/
+#mainmenu ul li{
+	position: relative;
+	display: inline;
+	float: left;
+	z-index:1000;
+	color:#fff;
+	font-size:15px;
+	font-weight:bold;
+	padding:0 0 0 5px;
+}
+#mainmenu ul li.first{
+	padding:0;
+	background:none;
+}
+/*Top level menu link items style*/
+#mainmenu ul li a{
+	display:block;
+	color:#fff;
+	z-index:1000;
+	padding:8px 10px 8px 10px;
+}
+* html #mainmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+	display: inline-block;
+	float:left;
+}
+* html #mainmenu ul li ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+	float:none;
+}
+#mainmenu ul li a:link, #mainmenucat ul li a:visited{
+}
+#mainmenu ul li a:hover, #mainmenu .current_page_item a, #mainmenu .select a{
+	text-decoration:none;
+	background:#000000;
+	color:#fff;
+}
+/*1st sub level menu*/
+#mainmenu ul li ul{
+	position: absolute;
+	left: 0;
+	display: block;
+	visibility: hidden;
+	margin:0 0 0 6px;
+	background:#000000;
+	height:auto;
+	padding:0;
+}
+/*Sub level menu list items (undo style from Top level List Items)*/
+#mainmenu ul li ul li{
+	display: list-item;
+	float: none;
+	font-size:1.0em;
+	background:none;
+	padding:0;
+	height: auto;
+}
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+#mainmenu ul li ul li ul{
+	top: 0;
+	margin:0 0 0 1px;
+	background:#000000;
+	height:auto;
+}
+/* Sub level menu links style */
+#mainmenu ul li ul li a, #mainmenu ul li.current_page_item ul a, #mainmenu ul li.select ul a{
+	width: 160px; /*width of sub menus*/
+	height:auto;
+	padding: 7px 5px 7px 10px;
+	margin: 0;
+	border-bottom: 1px solid #333333;
+	background:#000000;
+	border-top-width: 0;
+	text-align:left;
+	text-decoration:none;
+	color:#fff;
+	font-size:13px;
+	text-transform:capitalize;
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:normal;
+}
+#mainmenu ul li ul li a:hover{ /*sub menus hover style*/
+	color:#fff;
+	background:#000000 url(images/ico_menu.gif) no-repeat right center;
+}
+/* Sub level menu links style */
+#mainmenu ul li ul li ul li a, #mainmenu ul li.current_page_item ul ul a, #mainmenu ul li.select ul ul a{
+	border-bottom: 1px solid #515151;
+	background:#252525;
+}
+#mainmenu ul li ul li ul li a:hover{ /*sub menus hover style*/
+	color:#fff;
+	background:#2b2a2a;
+}
+/* ######### CSS classes applied to down and right arrow images  ######### */
+#menu_right{
+	float:right;
+	width:336px;
+	padding:17px 0 0 0;
+}
+#menu_right .rss{
+	float: left;
+}
+/*main_search*/
+#main_search{
+	float:left;
+}
+#searchform_top{
+	float:left;
+	width:100%;
+}
+#searchform_top_text{
+	width:204px;
+	padding:5px;
+	color:#c6c1bc;
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	float:left;
+	border:0;
+	background: url(images/bgr_searchform_top_text.gif) repeat-x;
+	margin: 0 5px 0 0;
+}
+#gosearch{
+	float:left;
+	margin:0 5px 0 0;
+}
+/*board*/
+#board{
+	width:100%;
+	height: 327px;
+	background:url(images/bgr_board.jpg) no-repeat;
+	overflow:hidden;
+}
+#board h2{
+	color:#000;
+	font-size:25px;
+	font-style: italic;
+	font-weight: normal;
+	margin:25px 0 10px 36px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#board_items{
+	width:844px;
+	margin: 0 0 0 36px;
+}
+#board_body{
+	width:100%;
+}
+#board_carusel{
+	width:844px;
+	height:183px;
+	position:relative;
+}
+#board_carusel .belt{
+	position: absolute; /*leave this value alone*/
+	left: 0;
+	top: 0;
+}
+.board_item{
+	width:844px;
+	height:183px;
+	overflow:hidden;
+}
+#board_body strong{
+	font-size:24px;
+	color:#000;
+	line-height:1.1em;
+	font-style: italic;
+	font-weight: normal;
+	display:block;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding: 0 0 5px 0;
+}
+#board_body p{
+	font-size:13px;
+	color:#000;
+	line-height:1.6em;
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 6px 0 0 0;
+}
+#board_body p img{
+	float:left;
+	margin:0 15px 0 0;
+	width:268px;
+	height:170px;
+	border: 3px solid #000;
+}
+#board_body p a{
+	color:#9d080d;
+}
+#board_body p.more a{
+	color: #9d080d;
+	margin: 10px 0 0 0;
+	font-weight: bold;
+	text-decoration: underline;
+}
+#board_body p.more a:hover{
+	text-decoration: none;
+}
+#board_carusel_nav{
+	width:100%;
+	overflow:hidden;
+	padding: 10px 0 0 0;
+}
+#board_carusel_nav ul{
+	float:left;
+}
+#board_carusel_nav li{
+	font-size:12px;
+	font-family:Verdana, Geneva, sans-serif;
+	float:left;
+	padding:0 2px 0 0;
+}
+#board_carusel_nav a{
+	display:block;
+	float:left;
+	background:#565656;
+	text-align:center;
+	padding:2px 6px 2px 6px;
+	color:#fff;
+}
+#board_carusel_nav a.selected, #board_carusel_nav a:hover{
+	text-decoration:none;
+	background:#3e2a15;
+}
+#board_prev{
+	position: absolute;
+	margin: -155px 0 0 -18px;
+}
+#board_next{
+	position: absolute;
+	margin: -155px 0 0 948px;
+}
+/* BODY */
+
+#body{
+	width:100%;
+	background:url(images/bgr_body.jpg) repeat-y;
+}
+#body_top{
+	width:100%;
+	background:url(images/bgr_body_top.jpg) no-repeat;
+	overflow:hidden;
+	padding:15px 0 0 0;
+}
+.page-template-page-wide-php #body{
+	background:url(images/bgr_body2.jpg) repeat-y;
+}
+.page-template-page-wide-php #body_top{
+	background:url(images/bgr_body_top2.jpg) no-repeat;
+}
+#content{
+	width:495px;
+	float:left;
+	padding:10px 0 0 42px;
+}
+.page-template-page-wide-php #content{
+	width:859px;
+	float:none;
+	padding:10px 0 0 42px;
+}
+#sidebar{
+	width:176px;
+	float:left;
+	padding:0 0 0 50px;
+}
+#sidebar_right{
+	float:right;
+	width:125px;
+	padding:0 34px 0 0;
+}
+/* post */
+.post{
+	width:100%;
+	margin:0 0 40px 0;
+}
+.single .post{
+	margin:0 0 20px 0;
+}
+.post .post_top{
+	width:100%;
+	overflow:hidden;
+	padding:0 0 10px 0;
+	margin:0 0 10px 0;
+	border-bottom:1px dotted #000;
+}
+
+.post .post_title{
+	margin:0 0 10px 0;
+}
+
+.post_title h2{
+	font-size:26px;
+	font-weight:normal;
+	color:#000;
+}
+.post_title h2 a{
+	color:#000;
+}
+.post_top_data{
+	width:100%;
+	overflow:hidden;
+}
+.post .post_top p{
+	font-size:13px;
+	line-height:1.4em;
+	padding:2px 0 2px 0;
+	color:#9d080d;
+}
+.post .post_top p a{
+	color:#000;
+}
+.post_top_data .post_top_row{
+	width: 100%;
+	overflow: hidden;
+	border-bottom:1px dotted #000;
+	padding:0 0 10px 0;
+	margin:0 0 5px 0;
+}
+.post_top_data .post_top_row p{
+	color:#000;
+	line-height: 36px;
+}
+.post_top_row .post_comm{
+	float: left;
+	width: 163px;
+	height: 36px;
+	background: url(images/bgr_post_comm.gif) no-repeat;
+	margin: 0 10px 0 0;
+	text-align: center;
+	font-weight: bold;
+}
+.post .post_top .post_author{
+	float: left;
+}
+.post .post_top_row b, .post .post_top .post_top_row b a{
+	font-weight:bold;
+	color:#9d080d;
+}
+.post .post_top .post_cats, .post .post_top .post_tags{
+	font-weight:bold;
+}
+.post .post_cats span, .post .post_top .post_cats a{
+	color:#000;
+	font-weight:normal;
+}
+.post .post_tags span, .post .post_top .post_tags a{
+	color:#000;
+	font-weight:normal;
+}
+.entry{
+	line-height:20px;
+	font-size:13px;
+	width:100%;
+	overflow:hidden;
+}
+.entry img{
+	border:3px solid #000;
+}
+.entry .banner{
+	text-align:center;
+	padding:0 0 10px 0;
+}
+.entry .banner img{
+	border:0;
+	padding:0;
+}
+.banner_left{
+	float:left;
+	padding:0 20px 10px 0;
+}
+.entry .banner_left img{
+	border:0;
+	padding:0;
+}
+.entry p{
+	padding-bottom:15px;
+}
+.entry p a{
+	color:#9d080d;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.entry p a:hover{
+	text-decoration:none;
+}
+.entry .more-link{
+	display:block;
+	color:#9d080d;
+	overflow:hidden;
+	text-align: right;
+	margin:10px 0 0 0;
+	background: #f4debe;
+	border: 1px solid #debe99;
+	padding: 15px;
+}
+h2.page_title{
+	font-size:27px;
+	font-weight:normal;
+	color:#000;
+	border-bottom:1px dotted #000;
+	padding:0 0 10px 5px;
+	margin:0 0 10px 0;
+}
+
+.post-page .entry a:hover{
+	text-decoration:none;
+}
+
+.post-page .entry h1, .post-page .entry h2, .post-page .entry h3, .post-page .entry h4, .post-page .entry h5, .post-page .entry h6{
+	color:#000;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	display:block;
+	font-weight:normal;
+}
+.post-page .entry h1{
+	font-size:26px;
+	padding:0 0 14px 0;
+}
+
+.post-page .entry h2{
+	font-size:24px;
+	padding:0 0 14px 0;
+}
+
+.post-page .entry h3{
+	font-size:22px;
+	padding:0 0 12px 0;
+}
+
+.post-page .entry h4{
+	font-size:20px;
+	padding:0 0 10px 0;
+}
+
+.post-page .entry h5{
+	font-size:18px;
+	padding:0 0 8px 0;
+}
+
+.post-page .entry h6{
+	font-size:16px;
+	padding:0 0 6px 0;
+} 
+
+/* SIDE BAR */
+/* ADS */
+#sidebar_ads{
+	width:100%;
+	overflow:hidden;
+	padding:0 0 10px 0;
+}
+#sidebar_ads div{
+	padding:0 0 10px 0;
+}
+/*sidebars*/
+.sidebar_widgets{
+	font-size:12px;
+	line-height:1.5em;
+	color:#49443b;
+}
+.sidebar_widgets a{
+	color:#000;
+}
+.sidebar_widgets .widgettitle{
+	font-size:17px;
+	line-height:1.3em;
+	color:#9d080d;
+	border-bottom: 1px dotted #948977;
+	padding:0 0 6px 5px;
+	margin: 0 0 5px 0;
+}
+.sidebar_widgets .widget_categories a, .sidebar_widgets .widget_archive a, .sidebar_widgets .widget_links a, .sidebar_widgets .widget_meta a, .sidebar_widgets .widget_pages a, .sidebar_widgets .widget_meta a, .sidebar_widgets .widget_recent_entries a{
+	display:block;
+	text-decoration: underline;
+}
+#body .sidebar_widgets a:hover{
+	text-decoration: none;
+}
+.sidebar_widgets .widget_categories{
+	font-weight:bold;
+}
+.sidebar_widgets .widget_categories a{
+	font-weight:normal;
+	display:inline;
+}
+.sidebar_widgets .widget_categories li li{
+	color: #625c50;
+}
+.sidebar_widgets .widget_categories li li a{
+	background:url(images/ico_subcat.gif) no-repeat left 5px;
+	padding:0 0 0 10px;
+	color: #625c50;
+}
+.sidebar_widgets ul{
+}
+.sidebar_widgets ul li{
+	margin:0 0 20px 0;
+}
+.sidebar_widgets ul ul{
+}
+.sidebar_widgets ul li ul li{
+	padding:3px 0 3px 3px;
+	margin:0;
+}
+.sidebar_widgets ul ul ul{
+	margin:0 0 0 10px;
+}
+.sidebar_widgets ul li ul li ul li{
+	border:0;
+	background:none;
+	padding:3px 0 3px 0;
+}
+.widget_tag_cloud a, .widget_text .textwidget{
+	padding:5px 0 5px 0;
+	line-height:1.4em;
+}
+.widget_text .textwidget img{
+	float: left;
+	margin: 0 10px 5px 0;
+	border: 3px solid #c1b7a2;
+	max-width: 95%;
+}
+.sidebar_widgets .widget_polls li{
+	border:0;
+}
+/*sidebar_twitter*/
+#twitter_update_list{
+	font-size:13px;
+	line-height:1.5em;
+}
+#twitter_update_list li{
+	padding:6px 0 10px 0;
+}
+#twitter_update_list a{
+	font-size:13px !important;
+	display:block;
+	color:#c01535;
+	font-weight:bold;
+	text-decoration:underline;
+}
+#twitter_update_list a:hover{
+	text-decoration:none;
+}
+#twitter_update_list span a{
+	font-weight:normal;
+	display:inline;
+	color:#c01535;
+}
+#ico_twitter{
+	position: absolute;
+	margin: -3px 0 0 160px;
+}
+
+/* FOOTER */
+#footer{
+	width:100%;
+	overflow:hidden;
+	height: 150px;
+	background: url(images/bgr_footer.jpg) no-repeat;
+}
+#footer_info{
+	float:right;
+	padding:80px 30px 0 0;
+	width: 460px;
+	text-align: right;
+}
+#footer_info p{
+	color:#fff;
+	font-size:13px;
+	font-family:Verdana, Geneva, sans-serif;
+	line-height:1.6em;
+}
+#footer_info p a{
+	color:#fff;
+	text-decoration:none
+}
+#footer_info p a:hover{
+	text-decoration:underline;
+}
+#footer_info p b a{
+	color:#fff;
+}
+#footer_logo{
+	float:left;
+	padding:80px 0 0 36px;
+}
+#footer_logo a{
+	color:#fff;
+	font-size:43px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	letter-spacing:-2px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#footer_logo a:hover{
+	text-decoration:none;
+}
+/* Begin Typography & Colors */
+
+#wp-calendar #prev a, #wp-calendar #next a {
+	font-size: 9pt;
+	}
+
+#wp-calendar a {
+	text-decoration: none;
+	}
+
+#wp-calendar caption {
+	font: bold 1.3em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	text-align: center;
+	}
+
+#wp-calendar th {
+	font-style: normal;
+	text-transform: capitalize;
+	}
+/* End Typography & Colors */
+
+
+
+
+/* Begin Images */
+p img {
+	padding: 0;
+	max-width: 100%;
+	}
+
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+
+a img {
+    border: none;
+}
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.right {
+    float: right;
+    margin: 7px 0 0 30px;
+}
+
+hr { display: none; }
+
+img.left {
+    float: left;
+    margin: 7px 30px 0 0;
+}
+
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left
+	}
+/* End Images */
+
+
+
+/* Begin Calendar */
+#wp-calendar {
+	empty-cells: show;
+	margin: 10px auto 0;
+	width: 98%;
+	}
+
+#wp-calendar #next a {
+	padding-right: 10px;
+	text-align: right;
+	}
+
+#wp-calendar #prev a {
+	padding-left: 10px;
+	text-align: left;
+	}
+
+#wp-calendar a {
+	display: block;
+	}
+
+#wp-calendar caption {
+	text-align: center;
+	width: 100%;
+	}
+
+#wp-calendar td {
+	padding: 3px 0;
+	text-align: center;
+	}
+
+#wp-calendar td.pad:hover { /* Doesn't work in IE */
+	background-color: #fff; }
+/* End Calendar */
+
+
+
+/* Begin Various Tags & Classes */
+acronym, abbr, span.caps {
+	cursor: help;
+	}
+
+acronym, abbr {
+	border-bottom: 1px dashed #999;
+	}
+
+blockquote {
+	margin: 15px 30px 10px 10px;
+	padding-left: 24px;
+	padding-bottom:7px;
+	background:url(images/blockquote_bg.gif) repeat-y;
+	}
+
+blockquote blockquote{
+	background:url(images/blockquote_bg2.gif) repeat-y;
+	}
+
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+	}
+
+.center {
+	text-align: center;
+	}
+
+hr {
+	display: none;
+	}
+
+a img {
+	border: none;
+	}
+
+
+.navigation {
+	display: block;
+	margin:10px 0 0 0;
+	overflow:hidden;
+	clear:both;
+	color:#000;
+	font-size:12px;
+	line-height:1.8em;
+	font-family:Verdana, Geneva, sans-serif;
+	}
+.navigation a{
+	color:#000;
+	font-size:13px;
+	}
+.navigation .wp-pagenavi{
+	background:#fcf8ec;
+	border:1px solid #d4d0c4;
+	padding:12px 15px 12px 15px;
+	text-align:right;
+}
+.navigation .wp-pagenavi a, .navigation .wp-pagenavi a:link {
+	padding: 6px; 
+	margin: 2px;
+	color:#000;
+	border: 0;
+	background: none;
+}
+.navigation .wp-pagenavi a:visited {
+	padding: 6px; 
+	margin: 2px;
+	color:#000;	
+	border: 0;
+	background: none;
+}
+.navigation .wp-pagenavi a:hover {	
+	padding: 6px; 
+	margin: 2px;
+	color:#fff;	
+	border: 0;
+	background:#b0692c;
+}
+.navigation .wp-pagenavi a:active {
+	padding: 6px; 
+	margin: 2px;
+	color:#a6a1a1;
+	border: 0;		
+}
+.navigation .wp-pagenavi span.pages {
+	padding: 6px; 
+	margin: 2px;
+	background:#363636;
+	color:#fff;
+	border: 0;
+}
+.navigation .wp-pagenavi span.current {
+	padding: 6px; 
+	margin: 2px;
+	color:#fff;	
+	border: 0;
+	background:#b0692c;
+}
+.navigation .wp-pagenavi span.extend {	
+	padding: 6px; 
+	margin: 2px;
+	background:none;
+	color:#000;
+	border: 0;
+}
+.navigation .wp-pagenavi a.nextpostslink {	
+	padding: 6px; 
+	margin: 2px;
+	background:#363636;
+	color:#fff;
+	border: 0;
+}
+.navigation .wp-pagenavi a.previouspostslink {	
+	padding: 6px; 
+	margin: 2px;
+	background:#363636;
+	color:#fff;
+	border: 0;
+}
+/* End Various Tags & Classes*/
+
+/* Begin Lists
+
+	Special stylized non-IE bullets
+	Do not work in Internet Explorer, which merely default to normal bullets. */
+
+.entry ul {
+	margin: 0 10px 15px 30px;
+	list-style: none;
+	padding:15px 20px 15px 20px;
+	font-family:Verdana, Geneva, sans-serif;
+	background: #faf4e1;
+	border: 1px solid #eae3c6;
+	} 
+
+.entry ul li {
+	border-bottom:1px solid #cec9bb;
+	background:url(images/ico_entry.gif) no-repeat left 13px;
+	padding:7px 0 7px 15px;
+	}
+
+.entry ol {
+	margin: 0 10px 15px 30px;
+	padding:15px 20px 15px 40px;
+	font-family:Verdana, Geneva, sans-serif;
+	background: #faf4e1;
+	border: 1px solid #eae3c6;
+	}
+
+.entry ol li {
+	margin: 0;
+	padding:7px 0 7px 0;
+	border-bottom:1px solid #cec9bb;
+	}
+
+.postmetadata ul, .postmetadata li {
+	display: inline;
+	list-style-type: none;
+	list-style-image: none;
+	}
+	
+ol li{
+	list-style: decimal outside;
+	}
+/* End Entry Lists */
+
+
+
+/* Begin Form Elements */
+#searchform {
+	margin: 10px auto;
+	padding: 5px 3px; 
+	text-align: center;
+	}
+
+#sidebar #searchform #s {
+	width: 108px;
+	padding: 2px;
+	}
+
+#sidebar #searchsubmit {
+	padding: 1px;
+	}
+
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+	text-align:center;
+	}
+
+select {
+	width: 130px;
+	}
+
+#commentform{
+	width:400px;
+}
+
+#commentform input {
+	width: 170px;
+	padding: 2px;
+	margin: 5px 5px 1px 0;
+	}
+
+#commentform textarea {
+	width: 350px;
+	padding: 2px;
+	}
+
+#commentform #submit {
+	margin: 5px 0 0 0;
+	padding:0;
+	width:85px;
+	height:35px;
+	}
+/* End Form Elements */
+
+
+
+/* Begin Comments*/
+
+h2#comments{
+	font-size:27px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#000;
+	font-weight:normal;
+	font-style: italic;
+	padding: 0 0 0 2px;
+	margin:10px 0 10px 0;
+}
+
+.alt {
+	margin: 0;
+	padding: 10px;
+	}
+
+.commentlist {
+	padding: 0;
+	text-align: justify;
+	margin:0;
+	}
+
+.commentlist .comment {
+	margin: 15px 0 0 0;
+	padding: 10px 15px 20px 15px;
+	list-style: none;
+	border:1px solid #d5d0bf;
+	background:#fbf5e4;
+	}
+
+.commentlist .alt {
+	border:1px solid #d5d0bf;
+	background:#f8ebd3;
+	}
+
+.commentlist .comment .comment {
+	margin: 15px 15px 15px 15px;
+	padding: 10px 15px 20px 15px;
+	width:auto;
+	}
+
+.commentlist p {
+	margin: 10px 5px 10px 0;
+	line-height:18px;
+	}
+.commentmet_data{
+	width:100%;
+	overflow:hidden;
+}
+.commentmet_data td{
+	vertical-align:top;
+	text-align:left;
+}
+.commentmet_avatar{
+	width:102px;
+	padding:15px 0 0 0;
+}
+.commentmet_text{
+}
+.commentmet_avatar img{
+	border:2px solid #868686;
+}
+
+#commentform p {
+	margin: 5px 0;
+	}
+
+.commentmet_replay{
+	width:100%;
+	overflow:hidden;
+}
+.commentmet_replay a{
+	float:right;
+	display:block;
+	text-indent:-9999px;
+	text-transform:capitalize;
+	background:url(images/button_replay.gif) no-repeat;
+	width:73px;
+	height:27px;
+}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+	padding:0 0 5px 0;
+	color:#000000;
+	font-size:14px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-transform:capitalize;
+	}
+.commentmetadata a{
+	color:#9e0b0e;
+}
+.commentmetadata span{
+	color:#9e0b0e;
+	font-size:20px;
+}
+
+.commentmet_text{
+	font-size:12px;
+	line-height:1.4em;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+#respond{
+	margin:40px 0 0 0;
+	font-family:Verdana, Geneva, sans-serif;
+}
+.commentlist #respond{
+	margin:20px 0 0 0;
+}
+
+h3#respond_title{
+	font-size:27px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#000;
+	font-weight:normal;
+	padding: 0 0 16px 2px;
+	margin:0 0 10px 0;
+	background: url(images/bgr_post_title.gif) repeat-x left bottom;
+}
+
+#commentform{
+	color:#000;
+	font-size:12px;
+	width:90%;
+}
+
+#commentform small{
+	position:relative;
+	top:-1px;
+	font-size:12px;
+}
+#cancel-comment-reply-link{
+	font-size:12px;
+	color:#000;
+}
+
+#commentform a, #commentform small{
+	color:#000;
+}
+
+#commentform input{
+	background:#fcf8ec;
+	border:3px solid #c7c3b7;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding:4px;
+	color:#000000;
+}
+
+#commentform textarea{
+	background:#fcf8ec;
+	border:3px solid #c7c3b7;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding:4px;
+	margin:5px 0 0 0;
+	color:#000000;
+	overflow:auto;
+}
+
+#commentform input#submit{
+	background:none;
+	border:0px;
+}
+
+/* End Comments */
+/* Archives page */
+.page_archives_div{
+	padding-bottom:60px;
+}
+
+.page_archives_div h2{
+	font-size:27px;
+	font-weight:normal;
+	color:#000;
+	border-bottom:1px dotted #000;
+	padding:0 0 10px 5px;
+	margin:0 0 10px 0;
+}
+
+.page_archives_div ul h2{
+}
+
+.page_archives_div ul{
+	margin:10px 0 40px 0;
+}
+
+.page_archives_div ul li{
+	margin:0px;
+	padding:8px 0 8px 5px;
+	list-style:none;
+	background:url(images/ico_line.gif) no-repeat left bottom;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+.page_archives_div ul li ul li{
+	border:0px;
+	background:none;
+}
+
+.page_archives_div ul li ul{
+	margin:0px;
+	padding:0px;
+	padding-left:10px;
+}
+
+.page_archives_div ul li a{
+	font-weight:normal;
+	color:#000;
+	font-size:13px;
+	background:url(images/ico_ar.gif) no-repeat left 2px;
+	padding:0 0 0 14px;
+}
+
+	
+/* ==================================================================
+    Secure and Accessible PHP Contact Form v.2.0WP FIXED width
+    ACCESSITES.CSS made by Mike Cherim - http://green-beast.com 
+   Designed and built to work with the Accessites WordPress theme
+================================================================== */
+
+#gb_form_div { 
+  text-align : left;
+  width : 100%;
+  margin:-40px 0 0 0;
+  font-family:Verdana, Geneva, sans-serif;
+}
+
+#gb_form_div p {
+  margin-left : 12px;
+}
+
+#gb_form {
+  text-align : left;
+  background : transparent;
+}
+
+#gb_form_div a {
+  color : #4c4c4c;
+  text-decoration : underline;
+}
+
+#gb_form_div a:hover, #gb_form_div a:focus, #gb_form_div a:active {
+  color : #4c4c4c;
+  text-decoration : none;
+}
+
+fieldset { 
+  border : 0;
+  margin-top : 10px;
+}
+
+#gb_form legend, legend, #gb_form dt { 
+  font-weight : bold; 
+  color : #4c4c4c;
+}
+
+#gb_form legend {
+  margin-left : -10px;
+  padding-top : 5px;
+}
+
+* html #gb_form legend {
+  margin-left : -5px;
+  padding:0 0 10px 0;
+}
+
+#gb_form legend#mainlegend { 
+  font-size : 12px; 
+  color : #4c4c4c;
+  margin-left : -10px;
+  padding-top : 5px;
+  padding-bottom : 10px;
+  background:url(images/dotted_grey.gif) repeat-x bottom;
+  width:100%;
+}
+
+* html #gb_form legend#mainlegend {
+  margin-left : -5px;
+}
+
+#gb_form legend#mainlegend small { 
+  font-size : 11px; 
+  text-transform : uppercase;
+}
+
+#gb_form_div .formhead small a {
+  font-size : 11px; 
+  background-image : none;
+  display : inline;
+  padding : 0;
+  margin : 0;
+}
+
+#gb_form_div .main_formhead, #gb_form_div .formhead {
+  font-size : 12px; 
+  color : #4c4c4c;
+  width : 97%;
+}
+
+#gb_form_div .main_formhead {
+  margin-left : -35px;
+  text-indent: -9999px;
+}
+
+#gb_form_div label { 
+  color : #000000; 
+  margin-top : 5px;
+  margin-left : 20px;
+  font-size:11px;
+}
+
+#gb_form_div input.short, #gb_form_div input.med, #gb_form_div select.med, #gb_form_div textarea.textbox, #gb_form_div textarea { 
+  color : #4c4c4c; 
+  padding : 3px; 
+  border : 1px solid #c8c5bc;
+  background-color : #fdf9f0;
+  font-size:13px;
+  font-family:Arial, Helvetica, sans-serif;
+  width : 60%;
+  height : auto;
+  margin:0 0 5px 20px;
+}
+
+#gb_form_div input.short {
+  width : 7%;
+}
+
+#gb_form_div textarea.textbox, #gb_form_div textarea { 
+  width : 80%;
+  height : 220px;
+  line-height : 1.5em;
+}
+
+#gb_form_div select.med {
+  width : 60%;
+}
+
+#gb_form_div input.checkbox {
+  cursor : default;
+  background : transparent;
+  color : #000000;
+  border : 0;
+  padding : 0; 
+  margin : 0;
+  width : 14px;
+  height : 14px;
+}
+
+#gb_form_div input.button {
+  cursor : pointer;
+  border : 0;
+  background:url(images/button_submit.gif) no-repeat;
+  width:85px;
+  height:35px;
+  display:block;
+  text-indent:-9999px;
+  text-transform:capitalize;
+  clear:both;
+}
+
+#content #gb_form input.button {
+  margin : 15px 5px 25px 20px;
+  padding : 2px 15px 2px 15px;
+}
+
+* html #content #gb_form input.button {
+  margin-left : -5px;
+}
+
+#gb_form_div span.error, #gb_form_div span.success, #gb_form_div dt { 
+  color : #000000;  
+  font-weight : bold; 
+}
+
+#gb_form_div dt small, #gb_form_div .formhead span.success, span.success, dl#result_dl_blockq dt {
+  color : #000000;
+}
+
+#gb_form_div small.whythis a { 
+  font-size : 11px; 
+  text-decoration : none;
+  color : #000000;
+}
+#gb_form_div small.whythis a span{ 
+  text-decoration : none;
+  color : #f9f1d9;
+}
+#gb_form_div small.whythis a:hover span{ 
+  color : #fff;
+  background:#000;
+  border:1px solid #fff;
+}
+
+#gb_form_div p.creditline small {
+  clear : both; 
+  display : block;
+  text-align : right;
+  margin : 0;
+  padding : 25px 0 15px 0;
+  font-size : 11px; 
+  letter-spacing : .0001em;
+  color : #666;
+}
+
+dl#result_dl_blockq blockquote {
+  margin-left : 0;
+}
+
+dl#result_dl_blockq blockquote p cite {
+  display : block;
+  text-align : right;
+}
+
+#gb_form_div span.items {
+  font-weight : bold;
+  color : #339999;
+}
+
+#gb_form_div ul {
+  margin : 10px 10px 20px 10px;
+}
+
+#gb_form_div ul li {
+  list-style-type : none;
+  margin : 0 10px 0 20px;
+}
+
+
+/* End ACCESSITES CSS */
+
+/*related_posts*/
+#related_posts{
+	background:#f7f2e3;
+	border:1px solid #dbd6c7;
+	padding:15px 23px 15px 23px;
+	margin:0 0 25px 0;
+}
+#related_posts p{
+	font-size:27px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:normal;
+	color:#000000;
+	padding:0 0 5px 0;
+}
+#related_posts ol{
+}
+#related_posts li{
+	border-bottom:1px solid #d9d6cd;
+	font-size:13px;
+	line-height:1.4em;
+	padding:7px 0 7px 16px;
+	list-style:none;
+	background:url(images/ico_rel.gif) no-repeat left 12px;
+	color: #000000;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#related_posts li a{
+	color: #000000;
+}
+/*postmetadata*/
+.postmetadata{
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	background:#f7ebd0;
+	margin:0 0 23px 0;
+	border:1px solid #e7cba5;
+}
+
+.postmetadata_top{
+	border-bottom:1px solid #e7cba5;
+	padding:8px 10px 8px 10px;
+	color:#514d3e;
+}
+
+.postmetadata_top a{
+	color:#f26521;
+	font-weight:bold;
+	background:url(images/s_rss.gif) no-repeat left 1px;
+	padding-left:22px;
+	margin-left:8px;
+}
+
+.postmetadata_but{
+	padding:4px 10px 10px 10px;
+	color:#514d3e;
+	font-weight:bold;
+}
+
+.postmetadata_but ul{
+}
+
+.postmetadata_but ul li{
+	display:inline;
+	padding-left:2px;
+}
+
+.postmetadata_but ul li img{
+	position:relative;
+	top:5px;
+}
+
+.postmetadata_end{
+	background:#f7ebd0;
+	padding:8px 10px 8px 10px;
+	color:#514d3e;
+	text-align:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	border-top:1px solid #e7cba5;
+}
+.postmetadata_end a{
+	color:#514d3e;
+	text-decoration:underline;
+}
+.postmetadata_end a:hover{
+	text-decoration:none;
+}
+.postmetadata_end .red a, .postmetadata_end .red{
+	color:#f26521;
+}
+/*wp-email*/
+#wp-email-title{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#7c786c;
+}
+.wp-email{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#7c786c;
+	font-size:11px;
+}
+.wp-email p{
+	width:100%;
+	overflow:hidden;
+}
+.wp-email p label{
+	text-align:left;
+	padding:0;
+	font-weight:normal;
+}
+.wp-email p input, .wp-email p textarea{
+  color : #000; 
+  padding : 6px; 
+  border : 1px solid #d8d7d2;
+  background-color : #fefcf7;
+  width : 50%;
+  font-size:12px;
+  font-family:Arial, Helvetica, sans-serif;
+  height : auto;
+  margin:0;
+}
+.wp-email p textarea{
+	width : 90%;
+	height:200px;
+}
+#imageverify{
+	margin:0 0 0 15px;
+}
+#wp-email-button input{
+	background:url(images/button_submit.gif) no-repeat;
+	display:block;
+	border:0;
+	text-indent:-5000px;
+	text-transform:capitalize;
+	width:85px;
+	height:35px;
+}
+.wp-email p img{
+	position:relative;
+	top:4px;
+	border:0;
+}

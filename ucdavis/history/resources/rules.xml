@@ -1,0 +1,35 @@
+<rules
+    xmlns="http://namespaces.plone.org/diazo"
+    xmlns:css="http://namespaces.plone.org/diazo/css"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+    <rules css:if-content="#visual-portal-wrapper">
+        <theme href="index.html" />
+    </rules>
+    <replace content="/html/head/title" theme="/html/head/title" />
+    <replace content="/html/head/base" theme="/html/head/base" />
+    <replace content="/html/head/meta" theme="/html/head/meta" />
+    <prepend content='/html/head' theme='/html/head' />
+    <copy attributes="class dir id" css:theme="body" css:content="body"/>
+    <replace css:theme-children="#logo h1">
+        <xsl:for-each css:select="a#portal-logo">
+          <xsl:value-of select="@title" />
+        </xsl:for-each>
+    </replace>
+    <copy attributes="href title" css:content='#portal-logo' css:theme='#logo h1 a' />
+    <copy content='//*[@id="portal-globalnav"]' theme='//*[@id="menu"]' />
+    <drop attributes="id" css:content="#portal-globalnav"/>
+    <prepend content='//*[@id="portal-personaltools-wrapper"]' theme='//*[@id="logo"]' />
+    <replace content='//*[@id="portal-searchbox"]' theme='//*[@id="search"]' />
+
+    <prepend css:content="#viewlet-above-content" css:theme="#page"/>
+    <prepend css:content="#edit-bar" css:theme="#page"/>
+    <copy css:content-children="#content" css:theme="#content"/>
+    <append css:content="#viewlet-below-content" css:theme="#page"/>
+
+    <copy content-children='//*[@id="portal-column-one"]' theme='//*[@id="sidebar"]' />
+    <copy content='//*[@id="portal-footer"]' theme='//*[@id="footer"]' />
+    <append content='//*[@id="portal-colophon"]' theme='//*[@id="footer"]' />
+    <append content='//*[@id="portal-siteactions"]' theme='//*[@id="footer"]' />
+
+</rules>
