@@ -17,10 +17,18 @@
         </xsl:for-each>
     </replace>
     <copy attributes="href title" css:content='#portal-logo' css:theme='#logo h1 a' />
+<<<<<<< HEAD
+    <copy content='//*[@id="portal-globalnav"]' theme='//*[@id="mainmenu"]' />
+    
+    <drop attributes="id" css:content="#portal-globalnav"/>
+    <prepend content='//*[@id="portal-personaltools-wrapper"]' theme='//*[@id="logo"]' />
+    <copy content='//*[@id="portal-searchbox"]' theme='//*[@id="main_search"]' />
+=======
     <copy content='//*[@id="portal-globalnav"]' theme='//*[@id="menu"]' />
     <drop attributes="id" css:content="#portal-globalnav"/>
     <prepend content='//*[@id="portal-personaltools-wrapper"]' theme='//*[@id="logo"]' />
     <replace content='//*[@id="portal-searchbox"]' theme='//*[@id="search"]' />
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
 
     <prepend css:content="#viewlet-above-content" css:theme="#page"/>
     <prepend css:content="#edit-bar" css:theme="#page"/>

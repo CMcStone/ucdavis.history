@@ -7,6 +7,12 @@ Author URI: http://www.skinpress.com/
 
 
 */
+<<<<<<< HEAD
+fontBaseSize{
+	font-size:85%;
+}
+=======
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
 ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{
 	margin:0;
 	padding:0;
@@ -19,6 +25,11 @@ h3, h4 { font-style:italic; }
 ul{
 	list-style:none;
 }
+<<<<<<< HEAD
+br.h3 {font-color:330000;
+	}
+=======
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
 a{
 	color:#000;
 	text-decoration:none;
@@ -29,14 +40,24 @@ a:hover{
 a img{
 	border:0;
 }
+<<<<<<< HEAD
+a:link, a:visited {
+    color: #9D080D;
+}
+=======
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
 .clear{
 	clear:both;
 }
 body{
 	margin:0;
 	padding:0;
+<<<<<<< HEAD
+	font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+=======
 	font-family: Georgia, "Lucida Sans Unicode","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
 	font-size:13px;
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
 	background: #fff url(images/bgr_main.jpg) repeat-x;
 	color:#000;
 }
@@ -65,6 +86,18 @@ body{
 
 #logo {
 	width: 850px;
+<<<<<<< HEAD
+	height: 75px;
+	margin: 0 auto;
+	padding-left: 0px;
+}
+
+#logo h1, #logo p 
+	margin: 0px;
+	line-height: normal;
+	font-weight: normal;
+	color: #000000;
+=======
 	height: 300px;
 	margin: 0 auto;
 	padding-left: 50px;
@@ -76,6 +109,7 @@ body{
 	line-height: normal;
 	font-weight: normal;
 	color: #FFFFFF;
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
 }
 
 #logo p {
@@ -86,13 +120,23 @@ body{
 }
 
 #logo h1 {
+<<<<<<< HEAD
+	padding: 0px 0px 0px 0px;
+	font-weight: bold;
+	font-size: 35px;
+=======
 	padding: 155px 0px 0px 0px;
 	font-size: 34px;
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
 }
 
 #logo a {
 	text-decoration: none;
+<<<<<<< HEAD
+	color: #000000;
+=======
 	color: #FFFFFF;
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
 }
 
 /* MENU */
@@ -100,6 +144,10 @@ body{
 	width:100%;
 	height:56px;
 	background:url(images/bgr_menu.jpg) no-repeat;
+<<<<<<< HEAD
+	
+=======
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
 }
 #mainmenu{
 	float:left;
@@ -119,7 +167,11 @@ body{
 	float: left;
 	z-index:1000;
 	color:#fff;
+<<<<<<< HEAD
+	font-size:125%;
+=======
 	font-size:15px;
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
 	font-weight:bold;
 	padding:0 0 0 5px;
 }
@@ -187,7 +239,11 @@ body{
 	text-align:left;
 	text-decoration:none;
 	color:#fff;
+<<<<<<< HEAD
+	font-size:15px;
+=======
 	font-size:13px;
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
 	text-transform:capitalize;
 	font-family:Verdana, Geneva, sans-serif;
 	font-weight:normal;
@@ -208,11 +264,27 @@ body{
 /* ######### CSS classes applied to down and right arrow images  ######### */
 #menu_right{
 	float:right;
+<<<<<<< HEAD
+    height:42px;
+	width:336px;
+	padding:0 0 0 0
+};
+#searchGadget {
+	width: 15em;
+}
+.searchSection {
+color: #000000;
+}
+#menu_right .rss{
+	float:right;
+	padding:15px 10px 0 0;
+=======
 	width:336px;
 	padding:17px 0 0 0;
 }
 #menu_right .rss{
 	float: left;
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
 }
 /*main_search*/
 #main_search{
@@ -226,7 +298,11 @@ body{
 	width:204px;
 	padding:5px;
 	color:#c6c1bc;
+<<<<<<< HEAD
+	font-size:15px;
+=======
 	font-size:13px;
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
 	font-family:Arial, Helvetica, sans-serif;
 	float:left;
 	border:0;
@@ -285,7 +361,11 @@ body{
 	padding: 0 0 5px 0;
 }
 #board_body p{
+<<<<<<< HEAD
+	font-size:15px;
+=======
 	font-size:13px;
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
 	color:#000;
 	line-height:1.6em;
 	font-family: Verdana, Geneva, sans-serif;
@@ -344,8 +424,38 @@ body{
 	position: absolute;
 	margin: -155px 0 0 948px;
 }
+<<<<<<< HEAD
+#content  { background-color: #ffffff; background: center repeat-y url(../images/bg.gif); }
+	#bd-content-notice {  font-family:"Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif; color: #FFFFFF; background-color: #f8eea0; background: repeat-x url(../images/bg-notice.gif); height: 76px; overflow: hidden; }
+	#bd-content-notice td { margin: 0; padding: 0 3px; }
+	#bd-dontent-notice button { width: 68px; height: 22px; margin: 11px; padding: 0; border: 0; background: transparent url(../images/notice-submit.png) no-repeat center top; text-indent: -1000em; cursor: pointer; /* hand-shaped cursor */ cursor: hand; /* for IE 5.x */ }
+
+	#bd-content-highlight { color: #FFFFFF; background-color: #848576; background: repeat-x url(../images/bg-highlight.gif); }
+	#bd-content-highlight h2 { color: #FFFFFF; margin-bottom: 5px; }
+	#bd-content-highlight-areas { width: 652px; height: 271px; background: #FFFFFF url(../images/bg-highlight-area.jpg); margin: 20px 20px 20px 0; }
+	#bd-content-highlight-areas-thumbs { width:141px; float:left; margin: 15px 0; }
+	#bd-content-highlight-areas-thumbs img { float:left; margin: 10px 0; }
+	#bd-content-highlight-areas-descrip { width: 490px; height: 250px; color: #818181; font-size: 1em; padding: 10px; overflow:hidden; }
+	#bd-content-highlight-areas-descrip h3 { color: #FFFFFF; }
+	.float-left { float:left; }
+	.float-right { float:right; }
+	.pad-left { padding-left: 40px; }
+	.serif { font-family:"Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif; }
+	.pad-10 { padding: 10px; }
+	.pad-15 { padding: 15px; }
+	.pad-20 { padding: 20px; }
+	.right { text-align:right; }
 /* BODY */
 
+#content a:link, dl.portlet a:link {
+    border-bottom: 0.1em solid #CCCCCC;
+    color: #9D080D;
+}
+
+=======
+/* BODY */
+
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
 #body{
 	width:100%;
 	background:url(images/bgr_body.jpg) repeat-y;
@@ -415,7 +525,11 @@ body{
 	overflow:hidden;
 }
 .post .post_top p{
+<<<<<<< HEAD
+	font-size:15px;
+=======
 	font-size:13px;
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
 	line-height:1.4em;
 	padding:2px 0 2px 0;
 	color:#9d080d;
@@ -463,7 +577,11 @@ body{
 }
 .entry{
 	line-height:20px;
+<<<<<<< HEAD
+	font-size:15px;
+=======
 	font-size:13px;
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
 	width:100%;
 	overflow:hidden;
 }
@@ -557,7 +675,18 @@ h2.page_title{
 } 
 
 /* SIDE BAR */
+<<<<<<< HEAD
+/* portlets */
+dl.portlet dt, div.portletAssignments div.portletHeader {
+    background: none repeat scroll 0 0;
+    line-height: normal;
+    padding: 0.42em 1em;
+    border-style: none none double;
+    border-bottom-color: #996600;
+}
+=======
 /* ADS */
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
 #sidebar_ads{
 	width:100%;
 	overflow:hidden;
@@ -639,14 +768,22 @@ h2.page_title{
 }
 /*sidebar_twitter*/
 #twitter_update_list{
+<<<<<<< HEAD
+	font-size:15px;
+=======
 	font-size:13px;
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
 	line-height:1.5em;
 }
 #twitter_update_list li{
 	padding:6px 0 10px 0;
 }
 #twitter_update_list a{
+<<<<<<< HEAD
+	font-size:15px !important;
+=======
 	font-size:13px !important;
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
 	display:block;
 	color:#c01535;
 	font-weight:bold;
@@ -680,7 +817,11 @@ h2.page_title{
 }
 #footer_info p{
 	color:#fff;
+<<<<<<< HEAD
+	font-size:15px;
+=======
 	font-size:13px;
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
 	font-family:Verdana, Geneva, sans-serif;
 	line-height:1.6em;
 }
@@ -863,7 +1004,11 @@ a img {
 	}
 .navigation a{
 	color:#000;
+<<<<<<< HEAD
+	font-size:15px;
+=======
 	font-size:13px;
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
 	}
 .navigation .wp-pagenavi{
 	background:#fcf8ec;
@@ -951,7 +1096,11 @@ a img {
 
 .entry ul li {
 	border-bottom:1px solid #cec9bb;
+<<<<<<< HEAD
+	background:url(images/ico_entry.gif) no-repeat left 15px;
+=======
 	background:url(images/ico_entry.gif) no-repeat left 13px;
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
 	padding:7px 0 7px 15px;
 	}
 
@@ -1249,7 +1398,11 @@ h3#respond_title{
 .page_archives_div ul li a{
 	font-weight:normal;
 	color:#000;
+<<<<<<< HEAD
+	font-size:15px;
+=======
 	font-size:13px;
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
 	background:url(images/ico_ar.gif) no-repeat left 2px;
 	padding:0 0 0 14px;
 }
@@ -1357,7 +1510,11 @@ fieldset {
   padding : 3px; 
   border : 1px solid #c8c5bc;
   background-color : #fdf9f0;
+<<<<<<< HEAD
+  font-size:15px;
+=======
   font-size:13px;
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
   font-family:Arial, Helvetica, sans-serif;
   width : 60%;
   height : auto;
@@ -1489,7 +1646,11 @@ dl#result_dl_blockq blockquote p cite {
 }
 #related_posts li{
 	border-bottom:1px solid #d9d6cd;
+<<<<<<< HEAD
+	font-size:15px;
+=======
 	font-size:13px;
+>>>>>>> 7cfa9b98eee084d37e6f8854f6856d9695991062
 	line-height:1.4em;
 	padding:7px 0 7px 16px;
 	list-style:none;
