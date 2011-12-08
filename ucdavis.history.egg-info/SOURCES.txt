@@ -1,3 +1,4 @@
+README
 setup.cfg
 setup.py
 ucdavis/__init__.py
