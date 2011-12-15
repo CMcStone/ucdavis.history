@@ -23,8 +23,8 @@
     
     <drop attributes="id" css:content="#portal-globalnav"/>
     <prepend content='//*[@id="portal-personaltools-wrapper"]' theme='//*[@id="logo"]' />
-    
     <copy content-children='//*[@id="viewlet-above-content"]' theme='//*[@id="board"]' />
+    <drop theme='//*[@id="board"]' if-path="news/ events/ Members/"/>
     <prepend css:content="#edit-bar" css:theme="#page"/>
     <copy css:content-children="#content" css:theme="#content"/>
     <append css:content="#viewlet-below-content" css:theme="#page"/>
