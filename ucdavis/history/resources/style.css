@@ -773,6 +773,7 @@ dl.portlet dt, div.portletAssignments div.portletHeader {
 
 /* FOOTER */
 #portal-footer {
+	background: transparent;
 	font-size: 75%;
     line-height: 2em;
     margin: 1em 0;
