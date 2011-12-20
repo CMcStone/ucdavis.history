@@ -772,6 +772,12 @@ dl.portlet dt, div.portletAssignments div.portletHeader {
 }
 
 /* FOOTER */
+#portal-footer {
+	font-size: 75%;
+    line-height: 2em;
+    margin: 1em 0;
+    padding: 1em;
+}
 #footer{
 	width:100%;
 	overflow:hidden;

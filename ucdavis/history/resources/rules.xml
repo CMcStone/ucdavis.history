@@ -28,9 +28,8 @@
 	<prepend css:content="#edit-bar" css:theme="#page"/>
 	<copy css:content-children="#content" css:theme="#content"/>
 	<append css:content="#viewlet-below-content" css:theme="#page"/>
-    
     <copy content-children='//*[@id="portal-column-one"]' theme='//*[@id="sidebar"]' />
-    <copy content='//*[@id="portal-footer"]' theme='//*[@id="footer"]' />
+    <append content='//*[@id="portal-footer"]' theme='//*[@id="footer"]' />
     <append content='//*[@id="portal-colophon"]' theme='//*[@id="footer"]' />
     <append content='//*[@id="portal-siteactions"]' theme='//*[@id="footer"]' />
 
