@@ -291,6 +291,14 @@ color: #000000;
 	float:left;
 	margin:0 5px 0 0;
 }
+/*carousel*/
+.carousel {
+    position: relative;
+    float: right;
+	background:url(images/bgr_board.jpg) no-repeat;
+}
+
+
 /*board*/
 #board{
 	width:100%;
@@ -425,6 +433,11 @@ color: #000000;
 #content a:link, dl.portlet a:link {
     border-bottom: 0.1em solid #CCCCCC;
     color: #9D080D;
+}
+#portal-breadcrumbs {
+    font-size: 80%;
+    margin-bottom: 1em;
+    margin-left: 1em;
 }
 
 #body{
