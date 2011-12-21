@@ -292,12 +292,16 @@ color: #000000;
 	margin:0 5px 0 0;
 }
 /*carousel*/
-.carousel {
-    position: relative;
-    float: right;
-	background:url(images/bgr_board.jpg) no-repeat;
-}
 
+.carousel-text {
+    background-color: transparent;
+    text-align: right;
+    bottom: 0;
+    left: 0;
+    padding: 2%;
+    float: right;
+	
+}
 
 /*board*/
 #board{
@@ -413,9 +417,9 @@ color: #000000;
 	#bd-content-notice td { margin: 0; padding: 0 3px; }
 	#bd-dontent-notice button { width: 68px; height: 22px; margin: 11px; padding: 0; border: 0; background: transparent url(../images/notice-submit.png) no-repeat center top; text-indent: -1000em; cursor: pointer; /* hand-shaped cursor */ cursor: hand; /* for IE 5.x */ }
 
-	#bd-content-highlight { color: #FFFFFF; background-color: #848576; background: repeat-x url(../images/bg-highlight.gif); }
+	#bd-content-highlight { color: #000000; background-color: transparent; background: repeat-x url(../images/bg-highlight.gif); }
 	#bd-content-highlight h2 { color: #FFFFFF; margin-bottom: 5px; }
-	#bd-content-highlight-areas { width: 652px; height: 271px; background: #FFFFFF url(../images/bg-highlight-area.jpg); margin: 20px 20px 20px 0; }
+	#bd-content-highlight-areas { width: 640px; height: 271px; background: transparent; margin: 20px 20px 20px 0; }
 	#bd-content-highlight-areas-thumbs { width:141px; float:left; margin: 15px 0; }
 	#bd-content-highlight-areas-thumbs img { float:left; margin: 10px 0; }
 	#bd-content-highlight-areas-descrip { width: 490px; height: 250px; color: #818181; font-size: 1em; padding: 10px; overflow:hidden; }
@@ -428,6 +432,9 @@ color: #000000;
 	.pad-15 { padding: 15px; }
 	.pad-20 { padding: 20px; }
 	.right { text-align:right; }
+}
+	
+
 /* BODY */
 
 #content a:link, dl.portlet a:link {
