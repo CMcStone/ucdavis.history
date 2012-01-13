@@ -24,7 +24,6 @@
     <drop attributes="id" css:content="#portal-globalnav"/>
     <drop theme='//*[@id="bd-content-highlight-areas-thumbs"]'  />
     <copy content='//*[@id="carousel-2680029003"]' theme='//*[@id="bd-content-highlight-areas-descrip"]' />
-    <copy css:content-children="#carousel-text" theme='//*[@id="bd-content-highlight-areas-thumbs"]' />
 	<prepend content='//*[@id="portal-personaltools-wrapper"]' theme='//*[@id="logo"]' />
 	<prepend content='//*[@id="portal-breadcrumbs"]' theme='//*[@id="body"]'  />
 	<prepend css:content="#edit-bar" css:theme="#page"/>

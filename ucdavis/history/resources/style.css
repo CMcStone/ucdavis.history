@@ -295,12 +295,22 @@ color: #000000;
 
 .carousel-text {
     background-color: transparent;
-    text-align: right;
+    overflow: visible;
     bottom: 0;
     left: 0;
-    padding: 2%;
-    float: right;
-	
+    position: relative,
+    right: 100px;
+    width: 75%;
+}
+.carousel-title {
+	padding: 0 0 0 160px;
+	color: #A0522D;
+}
+.carousel-body {
+	padding: 0 0 0 160px;
+}
+.carousel-pager-item-active {
+    background-color: #A0522D;
 }
 
 /*board*/
