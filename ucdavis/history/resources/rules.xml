@@ -21,6 +21,8 @@
     <copy content='//*[@id="portal-globalnav"]' theme='//*[@id="mainmenu"]' />
     <drop theme='//*[@id="main_search"]' />
     
+    <drop css:theme="#board" if-content="not(//*[@class='template-document_view portaltype-document section-front-page icons-on'])"/>
+    
     <drop attributes="id" css:content="#portal-globalnav"/>
     <drop theme='//*[@id="bd-content-highlight-areas-thumbs"]'  />
     <copy content='//*[@id="carousel-2680029003"]' theme='//*[@id="bd-content-highlight-areas-descrip"]' />
