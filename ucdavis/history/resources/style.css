@@ -469,6 +469,10 @@ color: #000000;
 	overflow:hidden;
 	padding:15px 0 0 0;
 }
+#body2col{
+	width:100%;
+	background:url(images/bgr_body_2col.jpg) repeat-y;
+}
 .page-template-page-wide-php #body{
 	background:url(images/bgr_body2.jpg) repeat-y;
 }
