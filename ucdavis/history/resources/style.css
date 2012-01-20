@@ -484,6 +484,21 @@ color: #000000;
 	float:left;
 	padding:10px 0 0 42px;
 }
+#content a:link,
+dl.portlet a:link {
+    color: #205c90;
+    border-bottom: 0.1em solid #ccc;
+}
+
+#content a:visited,
+dl.portlet a:visited {
+    color: #9D080D;
+    border-bottom: 0.1em solid #ccc;
+}
+#content a:hover,
+dl.portlet a:hover {
+    color: #205C90 !important; /* This one gets an !important because it should always activate in the content area, even when state coloring is active */
+}
 .page-template-page-wide-php #content{
 	width:859px;
 	float:none;
