@@ -486,7 +486,7 @@ color: #000000;
 }
 #content a:link,
 dl.portlet a:link {
-    color: #205c90;
+    color: ##9D080D;
     border-bottom: 0.1em solid #ccc;
 }
 
@@ -1767,4 +1767,8 @@ dl#result_dl_blockq blockquote p cite {
 	position:relative;
 	top:4px;
 	border:0;
+}
+}
+.state-published {
+	color: #9D080D !important;
 }
