@@ -25,7 +25,7 @@
     <drop theme='//*[@id="board"]' if-path="events" />
 	<drop theme='//*[@id="board"]' if-path="people" />
 	<drop theme='//*[@id="board"]' if-path="graduate" />
-	<drop theme='//*[@id="board"]' if-path="undergradute" />
+	<drop theme='//*[@id="board"]' if-path="undergraduate" />
 	<drop theme='//*[@id="board"]' if-path="contact" />
     
     <drop attributes="id" css:content="#portal-globalnav"/>
