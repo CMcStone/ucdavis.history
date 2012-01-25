@@ -32,6 +32,7 @@
 	<copy css:content-children="#content" css:theme="#content"/>
 	<append css:content="#viewlet-below-content" css:theme="#page"/>
 	<drop theme='//*[@id="sidebar"]' if-path="/people/" />
+	<replace css:content="#body" css:theme="#2col" if-path="/news/" />
     <copy content-children='//*[@id="portal-column-one"]' theme='//*[@id="sidebar"]' />
     <copy content-children='//*[@id="portal-column-two"]' theme='//*[@id="sidebar_right"]' />
     
