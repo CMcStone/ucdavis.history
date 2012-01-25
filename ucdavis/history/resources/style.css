@@ -58,7 +58,6 @@ body{
 	padding:0;
 
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-
 	background: #fff url(images/bgr_main.jpg) repeat-x;
 	color:#000;
 }
@@ -446,7 +445,7 @@ color: #000000;
 	.float-left { float:left; }
 	.float-right { float:right; }
 	.pad-left { padding-left: 40px; }
-	.serif { font-family:"font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; }
+	.serif { font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; }
 	.pad-10 { padding: 10px; }
 	.pad-15 { padding: 15px; }
 	.pad-20 { padding: 20px; }
@@ -483,6 +482,7 @@ color: #000000;
 #body_pg2{
 	width:100%;
 	background:url(images/bgr_body_2col.jpg) repeat-y;
+	font-size:85%;
 }
 #body_top_pg2{
 	width:100%;
