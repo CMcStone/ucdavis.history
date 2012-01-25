@@ -9,7 +9,7 @@ Author URI: http://www.skinpress.com/
 */
 
 fontBaseSize{
-	font-size:85%;
+	font-size:90%;
 }
 
 ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{
@@ -446,7 +446,7 @@ color: #000000;
 	.float-left { float:left; }
 	.float-right { float:right; }
 	.pad-left { padding-left: 40px; }
-	.serif { font-family:"Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif; }
+	.serif { font-family:"font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; }
 	.pad-10 { padding: 10px; }
 	.pad-15 { padding: 15px; }
 	.pad-20 { padding: 20px; }
