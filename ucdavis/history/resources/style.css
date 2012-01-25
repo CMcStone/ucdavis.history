@@ -38,8 +38,15 @@ a:hover{
 a img{
 	border:0;
 }
+a:link {
+    color:#9D080D;
+}
 
 a:link, a:visited {
+    color: #9D080D;
+}
+#content a:link, dl.portlet a:link {
+    border-bottom: 0.1em solid #CCCCCC;
     color: #9D080D;
 }
 
@@ -453,6 +460,16 @@ color: #000000;
     border-bottom: 0.1em solid #CCCCCC;
     color: #9D080D;
 }
+
+#content a:visited, dl.portlet a:visited {
+    color: #9D080D;
+    border-bottom: 0.1em solid #ccc;
+    
+}
+#content a:hover, dl.portlet a:hover {
+    color: #205C90 !important; /* This one gets an !important because it should always activate in the content area, even when state coloring is active */
+}
+
 #portal-breadcrumbs {
     font-size: 80%;
     margin-bottom: 1em;
@@ -490,21 +507,7 @@ color: #000000;
 	float:left;
 	padding:10px 0 0 42px;
 }
-#content a:link,
-dl.portlet a:link {
-    color: ##9D080D;
-    border-bottom: 0.1em solid #ccc;
-}
 
-#content a:visited,
-dl.portlet a:visited {
-    color: #9D080D;
-    border-bottom: 0.1em solid #ccc;
-}
-#content a:hover,
-dl.portlet a:hover {
-    color: #205C90 !important; /* This one gets an !important because it should always activate in the content area, even when state coloring is active */
-}
 .page-template-page-wide-php #content{
 	width:859px;
 	float:none;
