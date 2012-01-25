@@ -49,6 +49,9 @@ a:link, a:visited {
     border-bottom: 0.1em solid #CCCCCC;
     color: #9D080D;
 }
+#visualClear {
+	clear:both;
+}
 
 .clear{
 	clear:both;
