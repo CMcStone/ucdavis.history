@@ -31,12 +31,10 @@
 	<prepend css:content="#edit-bar" css:theme="#page"/>
 	<copy css:content-children="#content" css:theme="#content"/>
 	<append css:content="#viewlet-below-content" css:theme="#page"/>
-<<<<<<< HEAD
-	<drop theme='//*[@id="sidebar"]' if-path="/people" />
-=======
 
-	<drop theme='//*[@id="sidebar"]' if-path="/people/" />
->>>>>>> 6b42bdc18db6cb633672954e9e95594fc4948898
+	<drop theme='//*[@id="sidebar"]' if-path="/people" />
+
+
     <copy content-children='//*[@id="portal-column-one"]' theme='//*[@id="sidebar"]' />
     <copy content-children='//*[@id="portal-column-two"]' theme='//*[@id="sidebar_right"]' />
     
