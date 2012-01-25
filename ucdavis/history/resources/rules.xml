@@ -30,6 +30,7 @@
 	<prepend content='//*[@id="portal-breadcrumbs"]' theme='//*[@id="body"]'  />
 	<prepend css:content="#edit-bar" css:theme="#page"/>
 	<copy css:content-children="#content" css:theme="#content"/>
+	<copy css:content-children="#content" css:theme="#content_pg2"/>
 	<append css:content="#viewlet-below-content" css:theme="#page"/>
 
 	<drop theme='//*[@id="sidebar"]' if-path="/people" />
