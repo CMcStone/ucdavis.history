@@ -49,8 +49,12 @@ a:link, a:visited {
     border-bottom: 0.1em solid #CCCCCC;
     color: #9D080D;
 }
-#visualClear {
-	clear:both;
+#content_pg2 a:link, dl.portlet a:link {
+    border-bottom: 0.1em solid #CCCCCC;
+    color: #9D080D;
+}
+.visualClear {
+    clear:both;
 }
 
 .clear{
@@ -462,13 +466,25 @@ color: #000000;
     border-bottom: 0.1em solid #CCCCCC;
     color: #9D080D;
 }
+#content_pg2 a:link, dl.portlet a:link {
+    border-bottom: 0.1em solid #CCCCCC;
+    color: #9D080D;
+}
 
 #content a:visited, dl.portlet a:visited {
     color: #9D080D;
     border-bottom: 0.1em solid #ccc;
     
 }
+#content_pg2 a:visited, dl.portlet a:visited {
+    color: #9D080D;
+    border-bottom: 0.1em solid #ccc;
+    
+}
 #content a:hover, dl.portlet a:hover {
+    color: #205C90 !important; /* This one gets an !important because it should always activate in the content area, even when state coloring is active */
+}
+#content_pg2 a:hover, dl.portlet a:hover {
     color: #205C90 !important; /* This one gets an !important because it should always activate in the content area, even when state coloring is active */
 }
 
