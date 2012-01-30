@@ -158,7 +158,7 @@ body{
 #mainmenu{
 	float:left;
 	padding:12px 0 0 10px;
-	width:600px;
+	width:800px;
 }
 #mainmenu ul{
 	margin: 0;
@@ -266,7 +266,7 @@ body{
 	float:right;
 
     height:42px;
-	width:336px;
+	width:136px;
 	padding:0 0 0 0
 };
 #searchGadget {
