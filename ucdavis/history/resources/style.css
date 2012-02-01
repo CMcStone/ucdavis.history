@@ -1147,7 +1147,7 @@ a img {
 	}
 	
 ol li{
-	list-style: decimal outside;
+	list-style: none;
 	}
 /* End Entry Lists */
 
