@@ -27,6 +27,7 @@
 	<drop theme='//*[@id="board"]' if-path="graduate" />
 	<drop theme='//*[@id="board"]' if-path="undergraduate" />
 	<drop theme='//*[@id="board"]' if-path="contact" />
+	<drop theme='//*[@id="board"]' if-path="alumni" />
     
     <drop attributes="id" css:content="#portal-globalnav"/>
     <drop theme='//*[@id="bd-content-highlight-areas-thumbs"]'  />
