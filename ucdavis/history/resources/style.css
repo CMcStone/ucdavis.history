@@ -141,7 +141,7 @@ body{
     font-size: 80%;
     padding: 0.25em 0.5em;
     position: relative;
-    right: 0;
+    left:160px;
     top: 0;
     z-index: 3;
 }

@@ -16,7 +16,7 @@
           <xsl:value-of select="@title" />
         </xsl:for-each>
     </replace>
-    <prepend content='//*[@id="portal-searchbox"]' theme='//*[@id="subhead"]' />
+    <prepend content='//*[@id="portal-searchbox"]' theme='//*[@id="page"]' />
     <copy attributes="href title" css:content='#portal-logo' css:theme='#logo h1 a' />
     <copy content='//*[@id="portal-globalnav"]' theme='//*[@id="mainmenu"]' />
     <drop theme='//*[@id="main_search"]' />
