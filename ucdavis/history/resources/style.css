@@ -134,14 +134,14 @@ body{
     text-align: left;
 }
 #portal-personaltools {
-    background: none repeat scroll 0 0 #E3E3E3;
+    background: none repeat scroll 0 0 #F5DEB3;
     border-bottom-left-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
     float: right;
     font-size: 80%;
     padding: 0.25em 0.5em;
     position: relative;
-    left:160px;
+    left:190px;
     top: 0;
     z-index: 3;
 }
