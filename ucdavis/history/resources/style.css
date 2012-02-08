@@ -128,24 +128,25 @@ body{
     clear: right;
     float: right;
     position: relative;
-    top: 30px;
-    right: 40px;
+    top:27px;
     font-size: 80%;
     margin: 1.2em 0;
     text-align: left;
 }
+
 #portal-personaltools {
     background: none repeat scroll 0 0 #F5DEB3;
     border-bottom-left-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
     float: right;
+    position: relative;
     font-size: 80%;
     padding: 0.25em 0.5em;
-    position: relative;
-    left:190px;
+    left:220px;
     top: 0;
     z-index: 3;
 }
+
 
 /* MENU */
 #menu{
