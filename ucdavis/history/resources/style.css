@@ -307,25 +307,29 @@ color: #000000;
 }
 /*carousel*/
 
+/*carousel*/
+
+.carousel-image {
+    float: left; 
+    margin: 4px;
+}
 .carousel-text {
     background-color: transparent;
     overflow: visible;
+    width: 350px;
     bottom: 0;
     left: 0;
-    position: relative,
-    right: 100px;
-    width: 75%;
+    padding: 40px 0  0 200px;
+    position: relative;
 }
 .carousel-title {
-	padding: 0 0 0 210px;
 	color: #A0522D;
 }
-.carousel-body {
-	padding: 0 0 0 210px;
-}
+
 .carousel-pager-item-active {
     background-color: #A0522D;
 }
+
 
 /*board*/
 #board{
