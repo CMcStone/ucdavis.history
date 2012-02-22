@@ -115,7 +115,7 @@ body{
 
 	padding: 0px 0px 0px 0px;
 	font-weight: bold;
-	font-size: 35px;
+	font-size: 28px;
 }
 
 #logo a {
@@ -507,15 +507,6 @@ color: #000000;
 	width:495px;
 	float:left;
 	padding:10px 0 0 42px;
-}
-    .content_pg2{
-    	clear: both;
-    	font-size: 80%;
-		width:700px;
-		float:left;
-		padding:10px 0 0 42px;
-		line-height: 1.5em;
-    	margin: 1em 0.25em 2em;
 }
 
 .page-template-page-wide-php #content{

@@ -1,0 +1,32 @@
+/*  
+Theme Name: History
+Theme URI: http://history.ucdavis.edu
+Description: borrowed from a free wordpress theme, orei
+Author: SkinPress.com
+Author URI: http://www.skinpress.com/
+
+
+*/
+
+
+#body{
+	width:100%;
+	background:url(images/bgr_body_2col.jpg) repeat-y;
+}
+#body_top{
+	width:100%;
+	background:url(images/bgr_body_top_pg2.jpg) no-repeat;
+	overflow:hidden;
+	padding:15px 0 0 0;
+}
+
+#content{
+
+   	clear: both;
+   	font-size: 80%;
+	width:700px;
+	float:left;
+	padding:10px 0 0 42px;
+	line-height: 1.5em;
+   	margin: 1em 0.25em 2em;
+}
