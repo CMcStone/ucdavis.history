@@ -334,8 +334,8 @@ color: #000000;
 /*board*/
 #board{
 	width:100%;
-	height: 327px;
-	background:url(images/bgr_board.jpg) no-repeat;
+	height: 233px;
+	background:url(images/bgr_boardsm.jpg) no-repeat;
 	overflow:hidden;
 }
 #board h2{
