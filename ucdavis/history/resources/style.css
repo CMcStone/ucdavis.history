@@ -200,7 +200,7 @@ body{
 }
 #mainmenu ul li a:link, #mainmenucat ul li a:visited{
 }
-#mainmenu ul li a:hover, #mainmenu .current_page_item a, #mainmenu .select a{
+#mainmenu ul li a:hover, #mainmenu .current_page_item a, #mainmenu .selected a{
 	text-decoration:none;
 	background:#000000;
 	color:#fff;
