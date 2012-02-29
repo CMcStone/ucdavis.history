@@ -3,10 +3,9 @@
     xmlns:css="http://namespaces.plone.org/diazo/css"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-    <theme href="index.html" />
-    <theme href="index2.html" css:if-content="body.section-news" />
+    <theme href="index2.html" css:if-content="#body.section-news" />
     <theme href="index2.html" css:if-content="body.section-people" />
-    <notheme css:if-content="div.pb-ajax" />
+    <theme href="index.html" css:if-content="#visual-portal-wrapper" />
     <replace content="/html/head/title" theme="/html/head/title" />
     <replace content="/html/head/base" theme="/html/head/base" />
     <replace content="/html/head/meta" theme="/html/head/meta" />
