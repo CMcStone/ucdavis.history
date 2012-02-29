@@ -18,7 +18,7 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{
 }
 h1, h2, h3, h4 { font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;}
 h1 {text-transform:uppercase;}
-h2 { font-variant:small-caps; font-style:italic;letter-spacing: .08em; font-size: 2em; }
+h2 { font-variant:small-caps; font-style:italic; font-size: 2em; }
 h3, h4 { font-style:italic; }
 
 ul{
