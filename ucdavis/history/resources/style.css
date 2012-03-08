@@ -7,7 +7,6 @@ Author URI: http://www.skinpress.com/
 
 
 */
-
 fontBaseSize{
 	font-size:90%;
 }
@@ -132,6 +131,7 @@ body{
     font-size: 80%;
     margin: 1.2em 0;
     text-align: left;
+    z-index: 11;
 }
 
 #portal-personaltools {
@@ -144,7 +144,7 @@ body{
     padding: 0.25em 0.5em;
     left:220px;
     top: 0;
-    z-index: 3;
+    z-index: 12;
 }
 
 
@@ -166,14 +166,14 @@ body{
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
-	z-index:1000;
+	z-index:10;
 }
 /*Top level list items*/
 #mainmenu ul li{
 	position: relative;
 	display: inline;
 	float: left;
-	z-index:1000;
+	z-index:10;
 	color:#fff;
 
 	font-size:125%;
@@ -188,7 +188,7 @@ body{
 #mainmenu ul li a{
 	display:block;
 	color:#fff;
-	z-index:1000;
+	z-index:10;
 	padding:8px 10px 8px 10px;
 }
 * html #mainmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
