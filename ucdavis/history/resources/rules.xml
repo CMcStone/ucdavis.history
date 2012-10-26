@@ -14,13 +14,13 @@
 	<after theme-children="/html/body" 
 	content="/html/body/div[@id='visual-portal-wrapper']/div/script" />
     <copy attributes="class dir id" css:theme="body" css:content="body"/>
-    <replace css:theme-children="#logo h1">
+    <!--replace css:theme-children="#logo h1">
         <xsl:for-each css:select="a#portal-logo">
           <xsl:value-of select="@title" />
         </xsl:for-each>
-    </replace>
+    </replace-->
     <prepend content='//*[@id="portal-searchbox"]' theme='//*[@id="page"]' />
-    <copy attributes="href title" css:content='#portal-logo' css:theme='#logo h1 a' />
+    <!--copy attributes="href title" css:content='#portal-logo' css:theme='#logo h1 a' /-->
     <copy content='//*[@id="portal-globalnav"]' theme='//*[@id="mainmenu"]' />
     <drop theme='//*[@id="main_search"]' />
     
