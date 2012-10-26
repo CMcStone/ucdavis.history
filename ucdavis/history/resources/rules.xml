@@ -31,6 +31,7 @@
 	<drop theme='//*[@id="board"]' if-path="undergraduate" />
 	<drop theme='//*[@id="board"]' if-path="contact" />
 	<drop theme='//*[@id="board"]' if-path="alumni" />
+	<drop theme='//*[@id="board"]' if-path="media" />
     
     <drop attributes="id" css:content="#portal-globalnav"/>
     <copy content='//*[@id="carousel-2680029003"]' theme='//*[@id="bd-content-highlight-areas"]' />
