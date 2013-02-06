@@ -3,8 +3,9 @@
     xmlns:css="http://namespaces.plone.org/diazo/css"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-    <theme href="index2.html" css:if-content="#body.section-news" />
+    <theme href="index2.html" css:if-content="body.section-news" />
     <theme href="index2.html" css:if-content="body.section-people" />
+    <theme href="index2.html"  if-path="/undergraduate/courses" />
     <theme href="index.html" css:if-content="#visual-portal-wrapper" />
     <replace content="/html/head/title" theme="/html/head/title" />
     <replace content="/html/head/base" theme="/html/head/base" />
@@ -32,6 +33,7 @@
 	<drop theme='//*[@id="board"]' if-path="contact" />
 	<drop theme='//*[@id="board"]' if-path="alumni" />
 	<drop theme='//*[@id="board"]' if-path="media" />
+        <drop theme='//*[@id="board"]' if-path="ccwh" />
     
     <drop attributes="id" css:content="#portal-globalnav"/>
     <copy content='//*[@id="carousel-2680029003"]' theme='//*[@id="bd-content-highlight-areas"]' />
@@ -42,6 +44,7 @@
 	<append css:content="#viewlet-below-content" css:theme="#page"/>
 
 	<drop theme='//*[@id="sidebar"]' if-path="/people" />
+        <drop theme='//*[@id="sidebar"]' if-path="/undergraduate/courses" />
     
 
     <copy content-children='//*[@id="portal-column-one"]' theme='//*[@id="sidebar"]' />

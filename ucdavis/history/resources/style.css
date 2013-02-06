@@ -19,7 +19,9 @@ h1, h2, h3, h4 { font-family:"Palatino Linotype", "Book Antiqua", Palatino, seri
 h1 {text-transform:uppercase;}
 h2 { font-variant:small-caps; font-style:italic; font-size: 2em; }
 h3, h4 { font-style:italic; }
-
+h2.headline {
+    font-size: 1.5em;
+}
 ul{
 	list-style:none;
 }
